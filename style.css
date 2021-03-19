@@ -1,0 +1,51 @@
+body{
+	background-image:url('bg.jpg');
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center;
+  	background-size: cover;
+  	color: white;
+  	width:100%;
+  	padding:0px;
+  	margin:0px;
+
+}
+
+#top-bar{
+	height:30px;
+	width: 100%;
+	position: relative;
+	margin:0px;
+	background-color:rgba(0,0,0,0.8);
+	
+}
+
+#top-bar a{
+	text-decoration: None;
+	color: white;
+	font-weight: bold;
+}
+ 
+ #main{
+ 	padding:15px;
+	position: relative;
+	margin:10%;
+	border-width: 1px;
+	border-style: dotted;
+	border-radius: 6px;
+	background-color: rgb(48,59,77);
+}
+
+#cor{
+	height:20px;
+
+}
+
+#label{
+	color: white;
+	font-weight: bold;
+	font-size: 30px;
+
+}
+.displayer{
+	font-weight: bold;}

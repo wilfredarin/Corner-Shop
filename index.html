@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My Corner Shop</title>
+		<link rel="stylesheet" href="style.css">	
+	</head>
+	<body>
+		<section id="top-bar">
+			<a href="https://www.google.com/maps/@28.5798213,77.3892451,16z" target="_blank">Google Map</a>
+		</section>
+
+		<section id="main">
+			<div id="road-form">
+				<label id="label"for ="cordinates-inp">Coordinates</label>
+				<input type="text" id = "cordinates-inp" name="cordinates-inp">
+				<button id="corner-road">Submit</button>	
+			</div>
+			<div class="displayer">
+				<h1 id="display-road-prob">Non Corner Shop</h1>
+			</div>
+			<div class="displayer"id="display-road"></div>
+			<div class="displayer" id="display-road-east"></div>
+			<div class="displayer" id="display-road-west"></div>
+			<div class="displayer" id="display-road-north"></div>
+			<div class="displayer" id="display-road-south">	</div>
+		</section>
+		
+		<script
+		  src="https://code.jquery.com/jquery-3.6.0.js"
+		  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+		  crossorigin="anonymous">
+		</script>
+		<script src="index.js"></script>
+	</body>
+</html>
